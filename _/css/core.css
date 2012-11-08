@@ -116,10 +116,10 @@ nav ul#navlist li{
 	/*margin-top: 80px;*/
 }
 ul#navlist li{
-	display: inline; 
+	display: inline;
 }
 #navlist li a{
-	
+
 }
 #navlist li a, #navlist li a:visited{
 	text-decoration:none;
@@ -137,7 +137,7 @@ ul#navlist li{
   border-bottom: 5px solid #4d300f;
   padding-bottom: 0;
 	margin-bottom: 0;
-	
+
 }
 #content{
 	text-align:center;
@@ -213,6 +213,11 @@ body.home #content div.block2 a:hover img {
 	opacity: 1;
 }
 
+body.home #content div.block2 a img.solid {
+  margin-top: 14px;
+  opacity: 1;
+}
+
 
 #content a:hover, #content a:active{
 	text-decoration: underline;
@@ -245,7 +250,7 @@ body.home #content div.block2 a:hover img {
 }
 #content ul li{
   padding-left:20px;
-  background:url('../img/bullet-check.png') no-repeat 0px 5px;  
+  background:url('../img/bullet-check.png') no-repeat 0px 5px;
 }
 #mission {
   margin-top:50px;
@@ -253,9 +258,9 @@ body.home #content div.block2 a:hover img {
 #mission h1{
   font-size: 150%;
 }
-.block1 , .block2, .block3 { float:left; margin-left:30px;} 
+.block1 , .block2, .block3 { float:left; margin-left:30px;}
 .block1 { width:400px; }
-.block2 { 
+.block2 {
 	width:400px;
 	/*padding-top: 70px;*/
 	padding-top:30px;
@@ -287,7 +292,7 @@ footer a:hover, footer a:active{
 }
 .people {
   margin-left:30px;
-  
+
 }
 div.people p{
   margin:0;
