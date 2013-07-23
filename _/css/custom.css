@@ -37,6 +37,10 @@
   padding-bottom: 70px;
 }
 
+.up {
+  padding-top: 100px;
+}
+
 .button {
    -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -51,4 +55,21 @@
 
 .section2 {
   background-color: #EFEFEF;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.section3 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: #FAFAFA;
 }
