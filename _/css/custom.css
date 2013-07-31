@@ -34,7 +34,7 @@
 }
 
 .down {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .up {
@@ -72,4 +72,50 @@
   margin-right: auto;
   padding: 30px;
   background-color: #FAFAFA;
+}
+
+.subheading {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 28px;
+}
+
+body {
+  line-height: 24px;  
+}
+
+p {
+  margin: 20px;
+}
+
+.negative-bottom {
+  margin-bottom: -27px;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:hover {
+  color: #3C5EC3;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+footer a:hover {
+  color: #3C5EC3;
+  text-decoration: none;
 }

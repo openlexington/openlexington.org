@@ -416,6 +416,7 @@ body {
   font-size: 14px;
   line-height: 1.231;
 }
+
 input,
 button,
 select,
@@ -423,6 +424,7 @@ textarea {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
+/*
 a {
   color: #16a085;
   text-decoration: underline;
@@ -432,10 +434,13 @@ a {
   transition: 0.25s;
   -webkit-backface-visibility: hidden;
 }
+*/
+/*
 a:hover {
   color: #1abc9c;
   text-decoration: none;
 }
+*/
 h1 {
   font-size: 32px;
   font-weight: 900;
@@ -498,7 +503,7 @@ h6 {
 .btn:hover,
 .btn:focus,
 .btn-group:focus .btn.dropdown-toggle {
-  background-color: #cacfd2;
+  background-color: #4A71E5;
   color: #ffffff;
   outline: none;
   -webkit-transition: 0.25s;
@@ -560,12 +565,15 @@ h6 {
 .btn.btn-info:hover,
 .btn.btn-info:focus,
 .btn-group:focus .btn.btn-info.dropdown-toggle {
-  background-color: #5dade2;
+  background-color: #4A71E5;
+  border: #3C5EC3 solid 3px;
 }
 .btn.btn-info:active,
 .btn-group.open .btn.btn-info.dropdown-toggle,
 .btn.btn-info.active {
-  background-color: #2c81ba;
+  background-color: #4A71E5;
+  border: #3C5EC3 solid 3px;
+
 }
 .btn.btn-danger {
   background-color: #e74c3c;
@@ -2986,10 +2994,12 @@ footer a {
   color: #9aa4af;
   font-weight: 700;
 }
+/*
 footer p {
   font-size: 15px;
   line-height: 20px;
 }
+*/
 .footer-title {
   margin: 0 0 22px;
   padding-top: 21px;
