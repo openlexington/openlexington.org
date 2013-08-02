@@ -38,8 +38,14 @@
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 
-	<link rel="stylesheet" href="_/css/main.css" />
+<!-- 	<link rel="stylesheet" href="_/css/main.css" /> -->
 	<!-- main.css is a gateway file. You will spend your time in core.css -->
+
+	<link rel="stylesheet" href="_/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="_/css/flat-ui.css" />
+  <link rel="stylesheet" href="_/css/custom.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
 
 	<link rel="stylesheet" href="_/css/_print/main.css" media="print" />
 
@@ -91,29 +97,25 @@
 </head>
 
 <body id="index" class="home">
-<div id="topstripe" class="colorbits">
-  &nbsp;
-</div>
-<div id="wrapper">
+  <div id="wrapper">
 
 	<header>
-		<a href="index.html"><h1>OpenLexington. Open Data. Open Government.</h1></a>
-		<nav>
-			<ul id="navlist">
-        <li><a href="index.html" title="OpenLexington">Home</a></li>
-				<li><a class="current" href="opendata.html" title="About OpenLexington">About</a></li>
-				<li><a href="mission.html" title="Mission: OpenLexington">Mission</a></li>
-        <li><a href="http://data.lexingtonky.gov" title="Open Data Catalog">Data</a></li>
-        <li><a href="http://github.com/openlexington" title="Fork our code at GitHub">Code</a></li>
-        <li><a href="http://openlexington.pbworks.com/" title="Wiki at PBWorks">Wiki</a></li>
-        <li><a href="connect.html" title="Connect">Connect</a></li>
-			</ul>
-		</nav>
+		<a href="index.html"><h1 class="openlex">OpenLexington. Open Data. Open Government.</h1></a>
 
-
-
-
-
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+          <div class="nav-collapse collapse pull-right">
+            <ul class="nav">
+              <li><a href="index.html" title="OpenLexington">Home</a></li>
+              <li><a href="opendata.html" title="About OpenLexington">About</a></li>
+              <li><a href="mission.html" title="Mission: OpenLexington">Mission</a></li>
+              <li><a href="http://data.lexingtonky.gov" title="Open Data Catalog">Data</a></li>
+              <li><a href="http://github.com/openlexington" title="Fork our code at GitHub">Code</a></li>
+              <!-- <li><a href="#contact">NDoCH</a></li> -->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.navbar-inner -->
+      </div><!--/.navbar navbar-fixed-top -->
 	</header>
 
 	  <section id="content" class="body">
@@ -164,11 +166,18 @@
 
 
 
-	<footer id="footer" class="body">
-	  Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
-		OpenLexington is a non-partisan, non-profit organization. <br />
-    &copy; OpenLexington 2012 This work is licensed under a creative-commons attribution, non-commercial license.<br />
-	</footer>
+<div class="section3">
+  <div class="container">	
+    <div class="row">
+    	<footer id="footer" class="body">
+    	  <p class="text-center">Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
+    		OpenLexington is a non-partisan, non-profit organization. <br />
+        &copy; OpenLexington 2012 This work is licensed under a creative-commons attribution, non-commercial license.<br />
+    	  </p>
+    	</footer>
+    </div>
+  </div>
+</div>
 
 </div>
 <script type="text/javascript">
