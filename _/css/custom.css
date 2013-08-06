@@ -129,6 +129,14 @@ a.openlex {
   margin-left: 0px;
 }
 
+.medium {
+  font-size: 1.6em;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+
 li {
   line-height: 2em;
   font-size: 16px;
@@ -136,6 +144,10 @@ li {
 
 .undo-indent {
   margin-left: 0px;
+}
+
+.mission {
+  padding: 50px 100px;
 }
 
 /* Footer Stylin */
