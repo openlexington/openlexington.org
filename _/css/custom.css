@@ -70,7 +70,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+/*   padding: 30px; */
   background-color: #FAFAFA;
 }
 
@@ -106,8 +106,43 @@ a:hover {
   text-decoration: none;
 }
 
+/* Styling OpenData.html*/
+
+.body {
+  margin: 100px 100px 75px 100px;
+}
+
+a.openlex {
+  color: #3C5EC3;
+  text-decoration: none;
+}
+
+#openlex-header {
+  padding: 40px 0px 20px 0px;
+}
+
+.big {
+  font-size: 2em;
+  text-align: left;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+li {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+.undo-indent {
+  margin-left: 0px;
+}
+
+/* Footer Stylin */
+
 footer {
   font-size: 12px;
+  padding: 50px;
 }
 
 footer a {
@@ -119,18 +154,6 @@ footer a:hover {
   color: #3C5EC3;
   text-decoration: none;
 }
-/* Styling OpenData.html*/
-#wrapper {
-  margin: 100px;
-}
-
-a .openlex {
-  text-decoration: none;
-}
-
-
-
-
 
 
 
