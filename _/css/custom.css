@@ -1,3 +1,13 @@
+.logo {
+  display: block;
+  position: absolute;
+  z-index: 1000000000;
+  max-height: 75px;
+  max-width: 147px;
+  padding-top: 7px;
+  padding-left: 50px;
+}
+
 .navbar-inner {
   background-color: #EAE7E7;
   background-image: none;
