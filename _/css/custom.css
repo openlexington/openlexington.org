@@ -162,14 +162,16 @@ li {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  line-height: 2.2em;
+  padding-bottom: 50px;
 }
 
 .development {
-  color: #3C5EC3;
+  color: #4A71E5;
 }
 
 .launched {
-  color: #2e3192;
+  color: #3C5EC3;
 }
 
 a.project-title {
@@ -179,16 +181,20 @@ a.project-title {
 }
 
 a.project-title:hover {
-  color: #3C5EC3;
+  color: #4A71E5;
 }
 
 .description {
   margin: 0px;
   margin-left: 5px;
-  font-size: 18px;
-  color: black;
+  font-size: 19px;
+  color: #555555;
+  font-weight: 600;
 }
 
+.launched a:hover {
+  color: #3C5EC3;
+}
 
 /* Footer Stylin */
 
