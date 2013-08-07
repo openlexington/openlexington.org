@@ -84,6 +84,12 @@ h1 {
   line-height: 28px;
 }
 
+h2 {
+  font-size: 32px;
+  line-height: 26px;
+  font-weight: bolder;
+}
+
 body {
   line-height: 24px;  
 }
@@ -117,7 +123,7 @@ a.openlex {
   text-decoration: none;
 }
 
-#openlex-header {
+.openlex-header {
   padding: 40px 0px 20px 0px;
 }
 
@@ -150,6 +156,40 @@ li {
   padding: 50px 100px;
 }
 
+
+/* Projects Stylin */
+.projects {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.development {
+  color: #3C5EC3;
+}
+
+.launched {
+  color: #2e3192;
+}
+
+a.project-title {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a.project-title:hover {
+  color: #3C5EC3;
+}
+
+.description {
+  margin: 0px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+
 /* Footer Stylin */
 
 footer {
@@ -166,6 +206,7 @@ footer a:hover {
   color: #3C5EC3;
   text-decoration: none;
 }
+
 
 
 

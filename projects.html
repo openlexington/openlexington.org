@@ -11,17 +11,17 @@
 		 www.phpied.com/conditional-comments-block-downloads/ -->
 	<!--[if IE]><![endif]-->
 
-	<title>OpenLexington</title>
+	<title>Projects | OpenLexington</title>
 
 	<meta name="description" content="Empowering citizens through open data and open source solutions in Lexington, Kentucky" />
 	<!-- Google will often use this as its description of your page/site. Make it good. -->
-	<meta name="keywords" content="Lexington, Kentucky, Open Source, Open Data, Open Government, Transparency, Data, non-profit, volunteer, organization, public data" />
-	<meta name="author" content="OpenLexington et al" />
-	<meta name="Copyright" content="Copyright OpenLexington 2013. All Rights Reserved." />
 
+	<meta name="author" content="OpenLexington, Chase Southard, Sam Wilson et al" />
+	<meta name="Copyright" content="Copyright OpenLexington 2010. All Rights Reserved." />
+  <meta name="keywords" content="Lexington, Kentucky, Open Source, Open Data, Open Government, Transparency, Data, non-profit, volunteer, organization, public data" />
 	<meta name="DC.title" content="OpenLexington" />
 	<meta name="DC.subject" content="Empowering citizens through open data and open source solutions in Lexington, Kentucky" />
-	<meta name="DC.creator" content="OpenLexington et al" />
+	<meta name="DC.creator" content="OpenLexington, Chase Southard et al" />
 
 	<meta name="google-site-verification" content="LQ4XUq8R42yXu2f53lSdDHzQrEnyXe47oLlIsATuYM0" />
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
@@ -38,15 +38,16 @@
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 
+<!-- 	<link rel="stylesheet" href="_/css/main.css" /> -->
+	<!-- main.css is a gateway file. You will spend your time in core.css -->
+
 	<link rel="stylesheet" href="_/css/bootstrap.min.css" />
   <link rel="stylesheet" href="_/css/flat-ui.css" />
   <link rel="stylesheet" href="_/css/custom.css" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 
-	<!-- main.css is a gateway file. You will spend your time in core.css -->
-
-	<!-- <link rel="stylesheet" href="_/css/_print/main.css" media="print" /> -->
+	<link rel="stylesheet" href="_/css/_print/main.css" media="print" />
 
 	<!-- These are IE-specific conditional style sheets.
 		 You might consider removing the ones you don't end up using. -->
@@ -93,11 +94,14 @@
     })();
 
   </script>
-
 </head>
 
 <body id="index" class="home">
-  <div class="navbar navbar-fixed-top">
+  <div id="wrapper">
+
+	<header>
+
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
           <div class="nav-collapse collapse pull-right">
             <ul class="nav">
@@ -109,66 +113,40 @@
               <!-- <li><a href="#contact">NDoCH</a></li> -->
             </ul>
           </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+        </div><!--/.navbar-inner -->
+      </div><!--/.navbar navbar-fixed-top -->
+	</header>
 
-    <div class="container scoot section1">
-      <div class="row up">
-        <div class="span12 down">
-          <div class="span4"><img src="_/img/OpenLex.png"></div>
-          <div class="span7">
-            <h1>OpenLexington</h1>
-            <h3 class="subheading">Working to promote transparency and empower citizens through open data.</h3>
-            <a class="btn btn-large btn-info">Get Involved</a>
-          </div>
-        </div>
-      </div>
+	 <div class="projects">
+		<h1 class="openlex-header">OpenLexington Projects</h1>
+  	 <div class="development">
+  	  <h2 class="openlex-header">In Development:</h2>
+  	    <a href="https://github.com/openlexington/bus-alert" class="project-title">Bus Alert</a>
+  	      <span class="description">Lexington mobile app to remind you when your bus is approaching</span>
+  	    <a href="https://github.com/openlexington/bus-alert" class="project-title">Bus Alert</a>
+  	      <span class="description">Lexington mobile app to remind you when your bus is approaching</span>
+  	    <a href="https://github.com/openlexington/bus-alert" class="project-title">Bus Alert</a>
+  	      <span class="description">Lexington mobile app to remind you when your bus is approaching</span>
+
+  	 </div>
+  	 
+  	 <div class="launched">
+  	  <h2 class="openlex-header">Launched:</h2>	    
+  	 </div>
+	 </div>
+	 
+  <div class="section3">
+    <div class="container">	
       <div class="row">
-        <div class="span12">
-          <div class="span5 offset1 text-center">
-            <img class="negative-bottom" src="_/img/current.png"><br>
-            <a class="btn btn-large btn-info">Current Projects</a>
-            <p class="text-left">We are working with the <a href="http://lexingtonky.gov">Lexington Fayette Urban County Government</a>, the <a href="http://www.uky.edu">University of Kentucky</a>, and <a href="http://codeforamerica.org">Code for America</a> to make local public data more open, available and useful.
-          </div>
-          <div class="span5 text-center">
-            <img class="negative-bottom" src="_/img/past.png"><br>
-            <a class="btn btn-large btn-info">Past Projects</a>
-            <p class="text-left">OpenLexington is a non-profit, non-partisan organization that is working to <em>promote local government transparency</em> and <em>empower citizens</em> through <a href="opendata.html">open data</a>.</p>
-          </div>
-        </div>
+      	<footer id="footer">
+      	  <p class="text-center">Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
+      		OpenLexington is a non-partisan, non-profit organization. <br />
+          &copy; OpenLexington 2012 This work is licensed under a creative-commons attribution, non-commercial license.<br />
+      	  </p>
+      	</footer>
       </div>
     </div>
-
-
-<div class="section2">
-  <div class="container scoot">
-  	 <div class="row">  
-  	    <div class="span12 down up">
-           <div class="span5 offset1">
-            <p><strong>OpenLexington</strong> Volunteers are citizen engineers, professional software developers, analysts, artists, designers, students, and concerned residents. You can contribute too. Lend your talents to build something meaningful and useful. <a href="connect.html">Connect</a> with us.</p>
-           </div>        
-           <div class="span5"> 
-            <p><a href="http://brigade.codeforamerica.org"><img class="solid" src="_/img/CfA_Brigade_logo_300.png" width="300" height="113" alt="Code for America Brigade" /></a></p>
-           </div>
-  	    </div>
-      </div>
   </div>
-</div>
-
-
-<div class="section3">
-  <div class="container">	
-    <div class="row">
-    	<footer id="footer">
-    	  <p class="text-center">Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
-    		OpenLexington is a non-partisan, non-profit organization. <br />
-        &copy; OpenLexington 2012 This work is licensed under a creative-commons attribution, non-commercial license.<br />
-    	  </p>
-    	</footer>
-    </div>
-  </div>
-</div>
 
 </div>
 <script type="text/javascript">
