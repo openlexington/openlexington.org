@@ -51,6 +51,10 @@
   padding-top: 100px;
 }
 
+.extra-left {
+  margin-left: 110px;
+}
+
 .button {
    -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -87,6 +91,7 @@
 .subheading {
   font-size: 25px;
   line-height: 35px;
+  padding-bottom: 18px;
 }
 
 h1 {
