@@ -1,1 +1,1 @@
-hosting openlexington.org from the gh-pages branch
+website for OpenLexington
