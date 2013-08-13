@@ -39,7 +39,7 @@
 }
 
 .section1 {
-  height: 600px;
+  height: auto;
   padding-top: 80px;
 }
 
@@ -53,6 +53,11 @@
 
 .extra-left {
   margin-left: 110px;
+}
+
+.two-column-centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
