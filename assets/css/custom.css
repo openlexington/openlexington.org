@@ -216,6 +216,20 @@ a.project-title:hover {
   color: #3C5EC3;
 }
 
+.getinvolved {
+  padding-top: 50px;
+}
+
+.getinvolved a {
+  font-size: 2.57em;
+  vertical-align: middle;
+}
+
+ul.getinvolved li {
+  padding: 20px 0px;
+  vertical-align: middle;
+}
+
 /* Footer Stylin */
 
 footer {
