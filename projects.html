@@ -26,22 +26,26 @@
 	<meta name="google-site-verification" content="LQ4XUq8R42yXu2f53lSdDHzQrEnyXe47oLlIsATuYM0" />
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
 
-	<link rel="shortcut icon" href="_/img/favicon.png"/>
+	<link rel="shortcut icon" href="assets/img/favicon.ico"/>
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK
 		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
 
-	<link rel="apple-touch-icon" href="_/img/custom_icon.png"/>
+	<link rel="apple-touch-icon" href="assets/img/custom_icon.png"/>
 	<!-- The is the icon for iOS's Web Clip.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 
-	<link rel="stylesheet" href="_/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="_/css/bootstrap-responsive.min.css" />
-  <link rel="stylesheet" href="_/css/flat-ui.css" />
-  <link rel="stylesheet" href="_/css/custom.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-responsive.css" />
+  <link rel="stylesheet" href="assets/css/flat-ui.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
+	<script src="assets/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 	<!-- <link rel="stylesheet" href="_/css/_print/main.css" media="print" /> -->
@@ -50,13 +54,13 @@
 		 You might consider removing the ones you don't end up using. -->
 
 	<!--[if IE]>
-	<link rel="stylesheet" href="_/css/_patches/win-ie-all.css" />
+	<link rel="stylesheet" href="assets/css/_patches/win-ie-all.css" />
 	<![endif]-->
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="_/css/_patches/win-ie7.css" />
+	<link rel="stylesheet" href="assets/css/_patches/win-ie7.css" />
 	<![endif]-->
 	<!--[if lt IE 7]>
-	<link rel="stylesheet" href="_/css/_patches/win-ie-old.css" />
+	<link rel="stylesheet" href="assets/css/_patches/win-ie-old.css" />
 	<![endif]-->
 
 	<!-- The following is STRONGLY OPTIONAL, but useful if you really need to kick IE in the pants.
@@ -96,24 +100,28 @@
 <body id="index" class="home">
   <div id="wrapper">
 
-	<header>
-
-    <div class="navbar navbar-fixed-top">
-    <a href="index.html"><img class="logo" src="_/img/logo_small.png" height="75" width="147" /></a> 
+<body id="index" class="home">
+  <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           <div class="nav-collapse collapse pull-right">
             <ul class="nav">
               <li><a href="index.html" title="OpenLexington">Home</a></li>
               <li><a href="opendata.html" title="About OpenLexington">About</a></li>
               <li><a href="projects.html" title="Projects OpenLexington ">Projects</a></li>
+              <li><a href="getinvolved.html" title="Get Involved ">Get Involved</a></li>
               <li><a href="http://data.lexingtonky.gov" title="Open Data Catalog">Data</a></li>
               <li><a href="http://github.com/openlexington" title="Fork our code at GitHub">Code</a></li>
               <!-- <li><a href="#contact">NDoCH</a></li> -->
             </ul>
           </div><!--/.nav-collapse -->
-        </div><!--/.navbar-inner -->
-      </div><!--/.navbar navbar-fixed-top -->
-	</header>
+        </div>
+      </div>
+    </div>
 
 	 <div class="projects">
 		<h1 class="openlex-header">OpenLexington Projects</h1>
@@ -133,11 +141,11 @@
   	 
   	 <div class="launched" id="past">
   	  <h2 class="openlex-header">Launched:</h2>
-  	    <a href="https://github.com/openlexington/WhatsMyDistrict" class="project-title">What's My District</a>
+  	    <a href="http://whatsmydistrict.org" class="project-title">What's My District</a>
   	      <span class="description">According to your home address, an app that tells you your district and other zoning information  </span>
-  	    <a href="https://lexington-wiki.org " class="project-title">Local Wiki</a>
+  	    <a href="http://lexington-wiki.org" class="project-title">Local Wiki</a>
   	      <span class="description">A crowdsource of local knowledge about Lexington, KY  </span>
-  	    <a href="https://github.com/openlexington/lex_underutil" class="project-title">Lex_Underutil</a>
+  	    <a href="http://openlexington.github.io/lex_underutil/" class="project-title">Lex_Underutil</a>
   	      <span class="description">Tilemill map of underutilized properties in Lexington, Kentucky  </span>
   	 </div>
 	 </div>
@@ -165,9 +173,9 @@ var uservoiceOptions = {
   showTab: true,
   /* optional */
   alignment: 'left',
-  background_color:'#2c853b',
+  background_color:'#3C5EC3',
   text_color: 'white',
-  hover_color: '#141a49',
+  hover_color: '#4A71E5',
   lang: 'en'
 };
 
