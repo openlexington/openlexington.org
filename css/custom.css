@@ -4,6 +4,10 @@ body {
   line-height: 1.6em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar-bump {
   padding-top: 110px;
   }
@@ -81,28 +85,97 @@ h3 {
   padding-top: 25px;
 }
 
-p.main-description {
+.main-description {
   margin: 5%;
 }
 
-p.main-description a {
-  text-decoration: underline;
-  color: #000000;
-  }
-
-p.main-description a:hover {
-  text-decoration: none;
+a:hover, a:focus {
   color: #3C5EC3;
+  text-decoration: none;
 }
 
 .section2 {
   background-color: #efefef;
-  width: 100%;
-  border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
+}
+
+.section2.mission {
+  margin-top: 60px;
+}
+
+.section2 .row,
+.section2 p {
+  margin-bottom: 0;
+}
+
+.section2 p, .section2 ul {
+  margin: 5%;
+  padding-left: 0;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+.section2 ul li {
+  margin-left: 0;
+}
+
+.openlex-header {
+  color: #3C5EC3;
+}
+
+.mission #wrap #content {
+  margin: 0 20px;
+}
+
+.mission #content {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#wrap > .container {
+  padding-top: 60px;
 }
 
 #footer {
   background-color: #fafafa;
   height: auto;
+}
+
+#footer .container {
+  padding: 60px 0;
+}
+
+#footer p {
+  font-size: 13px;
+  color: black;
+}
+  
+#footer a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;  
+}
+
+#footer a:hover, #footer a:focus {
+  text-decoration: none;
+  color: #3C5EC3;     
+}
+
+.text-xs-center {
+  text-align: center;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .text-xs-center {
+    text-align: left;
   }
+  
+  .home .section2 p {
+    width: 330px;
+    max-width: 100%;
+  }
+}

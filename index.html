@@ -1,207 +1,121 @@
+
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-<html lang="en" class="no-js">
-<!-- the "no-js" class is for Modernizr. -->
+    <title>OpenLexington</title>
 
-<head class="html5reset-kitchensink-commented">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-	<meta charset="utf-8" />
+    <!-- Custom styles for this template -->
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/sticky-footer.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-	<!-- This prevents the conditional comments below from holding up the page load
-		 www.phpied.com/conditional-comments-block-downloads/ -->
-	<!--[if IE]><![endif]-->
 
-	<title>OpenLexington</title>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>../../Sticker
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
 	<meta name="description" content="Empowering citizens through open data and open source solutions in Lexington, Kentucky" />
 	<!-- Google will often use this as its description of your page/site. Make it good. -->
-	<meta name="keywords" content="Lexington, Kentucky, Open Source, Open Data, Open Government, Transparency, Data, non-profit, volunteer, organization, public data" />
-	<meta name="author" content="OpenLexington et al" />
-	<meta name="Copyright" content="Copyright OpenLexington 2013. All Rights Reserved." />
-
-	<meta name="DC.title" content="OpenLexington" />
-	<meta name="DC.subject" content="Empowering citizens through open data and open source solutions in Lexington, Kentucky" />
-	<meta name="DC.creator" content="OpenLexington et al" />
-
-	<meta name="google-site-verification" content="LQ4XUq8R42yXu2f53lSdDHzQrEnyXe47oLlIsATuYM0" />
-	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
-
-	<link rel="shortcut icon" href="assets/img/favicon.ico"/>
-	<!-- This is the traditional favicon.
-		 - size: 16x16 or 32x32
-		 - transparency is OK
-		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
-
-	<link rel="apple-touch-icon" href="assets/img/custom_icon.png"/>
-	<!-- The is the icon for iOS's Web Clip.
-		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
-		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
-		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
-
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css" />
-	<link rel="stylesheet" href="assets/css/bootstrap-responsive.css" />
-  <link rel="stylesheet" href="assets/css/flat-ui.css" />
-  <link rel="stylesheet" href="assets/css/custom.css" />
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
-	<script src="assets/js/bootstrap.min.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-	<!-- <link rel="stylesheet" href="assets/css/_print/main.css" media="print" /> -->
-
-	<!-- These are IE-specific conditional style sheets.
-		 You might consider removing the ones you don't end up using. -->
-
-	<!--[if IE]>
-	<link rel="stylesheet" href="assets/css/_patches/win-ie-all.css" />
-	<![endif]-->
-	<!--[if IE 7]>
-	<link rel="stylesheet" href="assets/css/_patches/win-ie7.css" />
-	<![endif]-->
-	<!--[if lt IE 7]>
-	<link rel="stylesheet" href="assets/css/_patches/win-ie-old.css" />
-	<![endif]-->
-
-	<!-- The following is STRONGLY OPTIONAL, but useful if you really need to kick IE in the pants.
-		 There are different flavors; pick the one right for your project: http://code.google.com/p/ie7-js/ -->
-	<!--[if lt IE 8]>
-	<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-	<![endif]-->
-
-	<!-- jQuery -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="assets/js/functions.js"></script>
-
-	<!-- Either Modernizr OR the HTML5 Shiv script is required if you want IE compatability, AND you want to use the new,
-		 more-semantic HTML5 elements (header, article, footer, etc)
-		 - we've only included Modernizr; HTML5 Shiv can be found here: http://html5shiv.googlecode.com -->
-
-	<!-- MODERNIZR: http://www.modernizr.com/
-		 If you're using this, you don't need the HTML5 Shiv script below -->
-	<script src="assets/js/modernizr-1.5.min.js"></script>
-
-	<!-- don't forget Google Analytics -->
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-287272-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-
-</head>
-
-<body id="index" class="home">
-  <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          <div class="nav-collapse collapse pull-right">
-            <ul class="nav">
+  <body class="home">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html" title="OpenLexington">Home</a></li>
               <li><a href="opendata.html" title="About OpenLexington">About</a></li>
               <li><a href="projects.html" title="Projects OpenLexington ">Projects</a></li>
               <li><a href="getinvolved.html" title="Get Involved ">Get Involved</a></li>
               <li><a href="http://data.lexingtonky.gov" title="Open Data Catalog">Data</a></li>
               <li><a href="http://github.com/openlexington" title="Fork our code at GitHub">Code</a></li>
-              <!-- <li><a href="#contact">NDoCH</a></li> -->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
-
-    <div class="container scoot section1">
-      <div class="row up">
-        <div class="span12 down">
-          <div class="span4 extra-left"><img src="assets/img/OpenLex.png"></div>
-          <div class="span6">
-            <h1>OpenLexington</h1>
-            <h3 class="subheading">Working to promote transparency and empower citizens through open data.</h3>
-            <a href="getinvolved.html" class="btn btn-large btn-info">Get Involved</a>
+    <div id="wrap">
+      <div class="container">
+        
+<!--The Bootstrap 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.
+Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.-->
+        <div class="row">
+          <div class="col-xs-12 col-lg-4 text-center col-lg-offset-1 col-sm-4 col-sm-offset-1"><img src="img/OpenLex.png" class="main-logo"></div>
+          <div class="col-xs-12 col-lg-7 col-sm-7 text-xs-center">
+            <div class="main-description">
+              <h1>OpenLexington</h1>
+              <h3 class="subheading">Working to promote transparency and empower citizens through open data.</h3>
+              <a href="getinvolved.html" class="btn btn-large btn-info">Get Involved</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="span12">
-          <div class="span5 offset1 text-center">
-            <img class="negative-bottom" src="assets/img/current.png"><br>
+        <div class="row padding-top-40">
+          <div class="col-xs-12 col-sm-6 col-lg-6 text-center">
+            <img src="img/current.png"><br>
             <a class="btn btn-large btn-info" href="http://www.openlexington.org/projects.html#current">Current Projects</a>
-            <p class="text-left">We are working with the <a href="http://lexingtonky.gov">Lexington Fayette Urban County Government</a>, the <a href="http://www.uky.edu">University of Kentucky</a>, and <a href="http://codeforamerica.org">Code for America</a> to make local public data more open, available and useful.
+            <p class="text-left main-description">We are working with the <a href="http://lexingtonky.gov">Lexington Fayette Urban County Government</a>, the <a href="http://www.uky.edu">University of Kentucky</a>, and <a href="http://codeforamerica.org">Code for America</a> to make local public data more open, available and useful.</p>
           </div>
-          <div class="span5 text-center">
-            <img class="negative-bottom" src="assets/img/past.png"><br>
+          
+          <div class="col-xs-12 col-sm-6 col-lg-6 text-center">
+            <img class="negative-bottom" src="img/past.png"><br>
             <a class="btn btn-large btn-info" href="projects.html#past">Past Projects</a>
-            <p class="text-left">OpenLexington is a non-profit, non-partisan organization that is working to <em>promote local government transparency</em> and <em>empower citizens</em> through <a href="opendata.html">open data</a>.</p>
+            <p class="text-left main-description">OpenLexington is a non-profit, non-partisan organization that is working to <em>promote local government transparency</em> and <em>empower citizens</em> through <a href="opendata.html">open data</a>.</p>  
           </div>
         </div>
-      </div>
+          
+      </div> <!-- /container -->
+
+      <div class="section2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+              <p class="pull-right"><strong>OpenLexington</strong> Volunteers are citizen engineers, professional software developers, analysts, artists, designers, students, and concerned residents. You can contribute too. Lend your talents to build something meaningful and useful. <a href="connect.html">Connect with us</a>.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+              <p class="text-xs-center">
+                <a href="http://brigade.codeforamerica.org">
+                  <img class="solid" src="img/CfA_Brigade_logo_300.png" width="300" height="113" alt="Code for America Brigade" />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
-
-
-<div class="section2">
-  <div class="container scoot">
-  	 <div class="row">  
-  	    <div class="span12 down up">
-           <div class="span5 offset1">
-            <p><strong>OpenLexington</strong> Volunteers are citizen engineers, professional software developers, analysts, artists, designers, students, and concerned residents. You can contribute too. Lend your talents to build something meaningful and useful. <a href="getinvolved.html">Connect</a> with us.</p>
-           </div>        
-           <div class="span5"> 
-            <p><a href="http://brigade.codeforamerica.org"><img class="solid" src="assets/img/CfA_Brigade_logo_300.png" width="300" height="113" alt="Code for America Brigade" /></a></p>
-           </div>
-  	    </div>
-      </div>
-  </div>
-</div>
-
-
-<div class="section3">
-  <div class="container">	
-    <div class="row">
-    	<footer id="footer">
-    	  <p class="text-center">Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
+    
+    <div id="footer">
+      <div class="container">
+     	  <p class="text-center">Join the discussion: <a href="http://groups.google.com/group/openlexington?lnk=srg" title="OpenLexington | Google Groups">openlexington</a> | Follow us on twitter: <a href="http://twitter.com/openlexington/" title="Follow OpenLexington on Twitter">@openlexington</a> | Fork our code on GitHub: <a href="http://github.com/openlexington" title="openlexington's Profile - GitHub">openlexington</a><br /><br />
     		OpenLexington is a non-partisan, non-profit organization. <br />
         &copy; OpenLexington 2012 This work is licensed under a creative-commons attribution, non-commercial license.<br />
     	  </p>
-    	</footer>
+      </div>
     </div>
-  </div>
-</div>
+    <!-- Bootstrap core JavaScript
 
-</div>
-<script type="text/javascript">
-var uservoiceOptions = {
-  /* required */
-  key: 'openlexington',
-  host: 'openlexington.uservoice.com',
-  forum: '79841',
-  showTab: true,
-  /* optional */
-  alignment: 'left',
-  background_color:'#3C5EC3',
-  text_color: 'white',
-  hover_color: '#4A71E5',
-  lang: 'en'
-};
-
-function _loadUserVoice() {
-  var s = document.createElement('script');
-  s.setAttribute('type', 'text/javascript');
-  s.setAttribute('src', ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.uservoice.com/javascripts/widgets/tab.js");
-  document.getElementsByTagName('head')[0].appendChild(s);
-}
-_loadSuper = window.onload;
-window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
-</script>
-</body>
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
 </html>
