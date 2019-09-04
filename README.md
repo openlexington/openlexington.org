@@ -13,4 +13,4 @@ See the [jekyll documentation](https://jekyllrb.com/docs/usage/) for more.
 
 - `jekyll build`
 
-## Merges and other commits to the `gh-pages` branch will build out the site on [GitHub Pages](https://pages.github.com/.
+## Merges and other commits to the `gh-pages` branch will build out the site on [GitHub Pages](https://pages.github.com/).
